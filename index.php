@@ -32,11 +32,13 @@
       $students['a456'] = $second;
 
       $third = new Student();
-      $third->surname = "Parry";
-      $third->first_name = "Jim";
-      $third->add_email('work', 'jim_parry@bcit.ca');
+      $third->surname = "Montano";
+      $third->first_name = "Paolo";
+      $third->add_email('school', 'pmontano@my.bcit.ca');
       $third->add_grade(85);
-      $students['j321'] = $third;
+      $third->add_grade(79);
+      $third->add_grade(86);
+      $students['m321'] = $third;
 
       ksort($students);
 
